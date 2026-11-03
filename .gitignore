@@ -1,0 +1,32 @@
+# ===== Keil MDK 构建输出 =====
+MDK-ARM/mot/
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvoptx
+MDK-ARM/*.scvd
+MDK-ARM/*.lst
+MDK-ARM/*.htm
+MDK-ARM/*.dep
+MDK-ARM/DebugConfig/
+MDK-ARM/build_out.txt
+
+# ===== 通用编译产物 =====
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lnp
+*.sct
+*.iex
+*.bak
+
+# ===== 本工程用不到的 CMSIS 大件（约 49MB）=====
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/RTOS/
+Drivers/CMSIS/RTOS2/
+Drivers/CMSIS/Core_A/
+Drivers/CMSIS/Lib/
+Drivers/CMSIS/docs/
