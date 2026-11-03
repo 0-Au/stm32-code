@@ -1,0 +1,17 @@
+motorsinpid\app_tasks.o: ..\Core\Src\app_tasks.c
+motorsinpid\app_tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+motorsinpid\app_tasks.o: D:\keil5\core\ARM\ARMCC\Bin\..\include\stddef.h
+motorsinpid\app_tasks.o: D:\keil5\core\ARM\ARMCC\Bin\..\include\stdint.h
+motorsinpid\app_tasks.o: ../Core/Inc/FreeRTOSConfig.h
+motorsinpid\app_tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+motorsinpid\app_tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+motorsinpid\app_tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+motorsinpid\app_tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+motorsinpid\app_tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+motorsinpid\app_tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+motorsinpid\app_tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+motorsinpid\app_tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+motorsinpid\app_tasks.o: ../Core/Inc/pid.h
+motorsinpid\app_tasks.o: ../Core/Inc/bsp_motor.h
+motorsinpid\app_tasks.o: D:\keil5\core\ARM\ARMCC\Bin\..\include\math.h
+motorsinpid\app_tasks.o: D:\keil5\core\ARM\ARMCC\Bin\..\include\stdio.h

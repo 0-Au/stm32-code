@@ -1,0 +1,12 @@
+motorsinpid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+motorsinpid\list.o: D:\keil5\core\ARM\ARMCC\Bin\..\include\stdlib.h
+motorsinpid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+motorsinpid\list.o: D:\keil5\core\ARM\ARMCC\Bin\..\include\stddef.h
+motorsinpid\list.o: D:\keil5\core\ARM\ARMCC\Bin\..\include\stdint.h
+motorsinpid\list.o: ../Core/Inc/FreeRTOSConfig.h
+motorsinpid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+motorsinpid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+motorsinpid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+motorsinpid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+motorsinpid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+motorsinpid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
