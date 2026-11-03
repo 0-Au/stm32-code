@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"jy60\startup_stm32f103xb.o"
+"jy60\hwt101.o"
+"jy60\main.o"
+"jy60\gpio.o"
+"jy60\dma.o"
+"jy60\usart.o"
+"jy60\stm32f1xx_it.o"
+"jy60\stm32f1xx_hal_msp.o"
+"jy60\stm32f1xx_hal_gpio_ex.o"
+"jy60\stm32f1xx_hal_uart.o"
+"jy60\stm32f1xx_hal.o"
+"jy60\stm32f1xx_hal_rcc.o"
+"jy60\stm32f1xx_hal_rcc_ex.o"
+"jy60\stm32f1xx_hal_gpio.o"
+"jy60\stm32f1xx_hal_dma.o"
+"jy60\stm32f1xx_hal_cortex.o"
+"jy60\stm32f1xx_hal_pwr.o"
+"jy60\stm32f1xx_hal_flash.o"
+"jy60\stm32f1xx_hal_flash_ex.o"
+"jy60\stm32f1xx_hal_exti.o"
+"jy60\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "JY60\JY60.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "JY60.map" -o JY60\JY60.axf

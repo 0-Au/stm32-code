@@ -1,0 +1,24 @@
+# ===== Keil MDK 构建输出（本工程输出目录是 MDK-ARM/JY60/）=====
+MDK-ARM/JY60/
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvoptx
+MDK-ARM/*.scvd
+MDK-ARM/*.lst
+MDK-ARM/*.htm
+MDK-ARM/*.dep
+MDK-ARM/DebugConfig/
+MDK-ARM/build_out.txt
+
+# ===== 通用编译产物 =====
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lnp
+*.sct
+*.iex
+*.bak
+*.build_log.htm
