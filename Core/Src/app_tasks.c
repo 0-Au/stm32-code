@@ -152,7 +152,7 @@ void App_TasksInit(void)
 {
     /* PID 参数需实机整定，这里只是能跑的起始值 */
     PID_Init(&motor_pid,
-             70.0f,   /* Kp */
+             60.0f,   /* Kp */
              10.0f,     /* Ki */
              0.0f,     /* Kd：速度环通常先不用微分 */
              500.0f,   /* 积分限幅 */
